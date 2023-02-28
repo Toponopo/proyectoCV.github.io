@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Currículum Vitae</title>
+    <link rel="stylesheet" href="C:\Users\estud\Desktop\CURSO HTML\PROYECTOCV\CSSCV.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e05243306.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <script src="C:\Users\estud\Desktop\CURSO HTML\PROYECTOCV\interaccónCV.js"></script>
+    <h1 id="curriculum">Proyecto Currículum Vitae de: Nicolás Mariano Cubilla</h1>
+        <div id="menuprincipal" class="columna">
+        
+            <h3 id="reseña" class="menu" onclick="desplegarreseña()">Reseña y finalidad</h3>
+            <h3 id="infopersonal" class="menu" onclick="desplegarinfopersonal()">Información personal</h3>
+            <h3 id="antecedentes" class="menu" onclick="desplegarantedecentes()">Antecedentes académicos</h3>
+            <h3 id="explaboral" class="menu" onclick="desplegarlaboral()">Experiencia laboral</h3>
+            <h3 id="datoscontacto" class="menu" onclick="desplegarcontacto()">Datos de contacto</h3>
+            <h3 id="redessociales" class="menu" onclick="desplegarredes()">Redes sociales</h3>
+            
+            
+        </div>
+    <div id="infoCV" class="columna2">
+        <div id="cuadroinicial" class="columnacuadronicial" >
+            <p id="textoinicial">A lo largo del presente currículo vitae podrá navegar detalladamente por los 
+                a fin de conocer mis cualidades personales y aptitudes que han marcado mi vida profesional.
+                Sea bienvenido a esta nueva expericia de ofrecimiento laboral para el desarrollo de tareas 
+                específicas para las cuales me encuentro ampliamente calificado 
+            </p>
+        </div>
+        <div id="informacionpersonal" class="columnainformacionpersonal">
+            <ul>
+                <div class="contenedor">
+                    <img src="https://randomuser.me/api/portraits/men/5.jpg"  class="image">
+                    <div class="cubrir">
+                      <div class="desplazafoto"><img src="C:\Users\estud\Desktop\CURSO HTML\PROYECTOCV\frame.png" id="fotoqr"></div>
+                    </div>
+                </div>
+                <li>Nombre: XXXXXXXX</li>
+                <li>Apellido: ZZZZZZZ</li>
+                <li>Edad: 33</li>
+                <li>D.N.I. Nº: 99.999.999</li>
+                <li>Estado civil: soltero</li>
+            </ul>
+            
+        </div>
+        <div id="anteacademicos" class="columnaanteacademicos">
+            <li>Ed. primaria completa </li>
+            <li>Ed. secundaria completa </li>
+            <li>Ed. universitaria completa </li>
+            <input type="button" id="botonmasinfo" value="Más Información" onclick="masinfo()">
+        </div>
+        <div id="experiencia" class="columnaexperiencialab">
+            <ul>
+                <li>2003 - 2007: xxxxxxxxx</li>
+                <li>2007- 2015: ccccccccccc</li>
+                <li>2015 - 2022: bbbbbbbbbbb</li>
+                <li>2023: eeeeeeeeeeee</li>
+            </ul>
+            <span class="fa-solid fa-phone" id="icono" onclick="masinfo2()"></span>
+        </div>
+        <div class="columna3">
+            <p class="adi">Información adicional:</p>
+                <div id="listadicional" class="lista">
+                    <ul>
+                        <li>SSSSSSSSSSSS</li>
+                        <li>AAAAAAAAAAAAA</li>
+                        <li>BBBBBBBBBBBBB</li>
+                        <li>CCCCCCCCCCCCC</li>
+                    </ul>
+                    
+                </div>
+                <div id="listadicional2" class="lista">
+                    <ul>
+                        <li>Ref. 1: 333-55666</li>
+                        <li>Ref. 2: 222-5567</li>
+                        <li>Ref.a 3: 6677-444</li>
+                        
+                    </ul>
+                </div>
+                <div id="listadicional3" class="lista">
+                    <ul>
+                        <li>uuuuuuuuuuuuuu</li>
+                        <li>OOOOOOOOOOOOOO</li>
+                        <li>JJJJJJJJJJJJJJ</li>
+                        <li>PPPPPPPPPPPPPP</li>    
+                    </ul>
+                </div>
+                
+        </div>
+        <div id="contacto" class="columnadatoscontacto">
+            
+            <li>Teléfono fijo: (000) 0000-000000</li>
+            <li>Celular: (0000) 11111-111111</li>
+            <li>E-mail: xxxxxx@uuuuuu.com</li>
+            
+        </div>
+        <div id="redsoc" class="columnaredsoc">
+            <h5 id="instagram"><span class="fa-brands fa-instagram"></span> <a href="https://www.instagram.com" title="Ingresa a mi perfil de Instagram y conocerás más de mi vida">instagram..</a> </h5>
+            <h5 id="facebook"><span class="fa-brands fa-facebook"></span> <a href="https://www.facebook.com" title="Ingresa a mi perfil de Facebook y conocerás más de mi historia">facebook..</a> </h5>
+            <h5 id="twitter"><span class="fa-brands fa-twitter"></span> <a href="https://twitter.com" title="Ingresa a mi perfil de Twitter y conocerás como pienso">twitter..</a> </h5>
+        </div>
+    </div>
+</body>
+</html>
